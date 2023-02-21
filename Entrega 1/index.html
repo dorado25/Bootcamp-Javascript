@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de usuario</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="" id="avatar" alt="avatar" class="avatar">
+        </div>
+        <div class="data">
+            <label for="name"><b>Nombre</b></label>
+            <input type="text" id="name" name="name">
+            <label for="name"><b>Apellido</b></label>
+            <input type="lastname" id="lastname" name="name">
+        </div>
+        <div id="actions">
+            <button type="button"onclick="console.log(document.getElementById('lastname').value)">
+                Update
+            </button>
+        </div>
+        <script src="JS/demo.js"></script>
+    </div>
+</body>
+</html>
